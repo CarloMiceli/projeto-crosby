@@ -1,0 +1,247 @@
+@charset "UTF-8" ;
+
+@font-face {
+    font-family: "Orpheus";
+    src: url("../fontes/Orpheus\ Pro\ Font.otf") format('opentype');
+    font-weight: normal;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-weight: lighter;
+
+}
+
+:root {
+    --cor0:#080808;
+    --cor1:#38383B;
+    --cor2:#A8A6A1;
+
+    --fonte-padrao: "Orpheus";
+    --fonte-texto: "serif";
+
+}
+
+body {
+    color: white;
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+
+}
+
+
+/*Header*/
+
+
+.header-border {
+    box-sizing:border-box;
+    display: block;
+    float: none;
+    line-height: 19.2px;
+    position: absolute;
+    z-index: 1;
+}
+
+.header-inner-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+
+.header-title {
+    width: 33%;
+    flex: 1 1 33%;
+    
+}
+
+.header-title-text {
+    margin: 0;
+    font-size: calc(2 * 1rem);
+    font-family: orpheus-pro;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4em;
+
+}
+
+#site-title {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header-nav {
+
+
+}
+
+.header-actions {
+
+
+}
+
+
+
+
+/*Main*/
+
+.page-section {
+
+
+}
+
+.section-border {
+
+
+}
+
+.section-background {
+
+
+}
+
+.fluid-image-container {
+
+
+}
+
+
+.item-list {
+
+
+}
+
+.content {
+
+
+}
+
+.content-fill {
+
+
+    
+}
+
+.content-wrapper {
+
+
+}
+
+.list-section-title {
+
+
+}
+
+.item-list-container {
+
+
+}
+
+.list-item {
+
+
+}
+
+.list-item-media {
+
+
+}
+
+.list-item-media-inner {
+
+
+}
+
+
+.list-item-content {
+
+
+}
+
+.list-item-content_text-wrapper {
+
+
+}
+
+.list-item-content-title {
+
+
+}
+
+.list-item-content_button-wrapper {
+
+
+}
+
+.list-item-content_button-container {
+
+
+}
+
+.list-item-content_button {
+
+
+}
+
+.newsletter-form {
+
+
+}
+
+.newsletter-form-header {
+
+
+}
+
+.newsletter-form-header-title {
+
+
+}
+
+.newsletter-form-header-description {
+
+
+}
+
+.newsletter-form-body {
+
+
+}
+
+.newsletter-form-field {
+
+
+}
+
+.newsletter-form_label-title {
+
+
+}
+
+.newsletter-form-button-wrapper {
+
+
+}
+
+.newsletter-form-button {
+
+
+}
+
+.newsletter-form-spinner {
+
+
+}
+
+
+
+
+
+
